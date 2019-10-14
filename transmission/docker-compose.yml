@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  transmission:
+    build: .
+    command: ['/openvpn/start-transmission']
+    dns:
+      - 209.222.18.222
+      - 209.222.18.218
+    ports:
+      - '9091:9091'
+    privileged: true
+    volumes:
+      - /Volumes/Media/Transmission:/transmission

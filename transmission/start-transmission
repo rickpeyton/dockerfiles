@@ -1,0 +1,4 @@
+#!/bin/bash
+openvpn --daemon --config /openvpn/atlanta.ovpn
+service transmission-daemon start
+sleep infinity
