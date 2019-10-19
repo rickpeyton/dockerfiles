@@ -4,8 +4,8 @@ services:
     build: .
     command: ['/openvpn/start-transmission']
     dns:
-      - 209.222.18.222
-      - 209.222.18.218
+      - 85.203.37.1
+      - 85.203.37.2
     ports:
       - '9091:9091'
       - '8989:8989'

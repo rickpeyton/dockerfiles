@@ -1,4 +1,4 @@
 #!/bin/bash
-openvpn --daemon --config /openvpn/atlanta.ovpn
+openvpn --daemon --config /openvpn/expressvpn_dallas2.ovpn
 service transmission-daemon start
 sleep infinity
